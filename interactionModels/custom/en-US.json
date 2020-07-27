@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hackathon demo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "UnlockFreeShippingIntent",
+          "slots": [],
+          "samples": [
+            "free shipping",
+            "how can I unlock free shipping"
+          ]
+        },
+        {
+          "name": "ShoppingListIntent",
+          "slots": [],
+          "samples": [
+            "shopping list",
+            "show me my shopping list",
+            "what\u0027s on my shopping list"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
